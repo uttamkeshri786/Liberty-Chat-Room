@@ -1,6 +1,6 @@
 # Liberty-Chat-Room
 ----------------------------------------------------------------------------------------------------------------------------------
-## Liberty.io
+## Liberty
 
 [![CircleCI](https://circleci.com/gh/liberty/liberty.io.svg?style=svg)](https://circleci.com/gh/liberty/liberty.io)
 
@@ -14,7 +14,7 @@ Simple encrypted web chat. Powered by [socket.io](http://socket.io), the [web cr
 
 ### Liberty Web Client
 
-The Liberty.io [web client](/client) is written in JavaScript with React JS and Redux.
+The Liberty [web client](/client) is written in JavaScript with React JS and Redux.
 
 ### Development
 
