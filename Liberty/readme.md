@@ -98,7 +98,7 @@ liberty uses a combination of asymmetric encryption (RSA-OAEP), symmetric sessio
 Here's an overview of a chat between Uttam and Amit (also applies to group chats):
 
 1. Amit creates a room and immediately creates a public/private key pair (RSA-OAEP).
-2. Uttam joins the room and also creates a public/private key pair. She is sent Amit's public key and she sends Amit her public key.
+2. Uttam joins the room and also creates a public/private key pair. He is sent Amit's public key and he sends Amit him public key.
 3. When Amit goes to send a message, three things are created: a session key (AES-CBC), a signing key (HMAC SHA-256) and an initialization vector (used in the encryption process).
 4. Amit's message is encrypted with the session key and initialization vector, and a signature is created using the signing key.
 5. The session key and signing key are encrypted with each recipient's public key (in this case only Uttam, but in a group chat multiple).
